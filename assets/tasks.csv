@@ -1,0 +1,18 @@
+Task type,Task ID,Activity
+Binary classification,bug_issue,Quality assurance
+Binary classification,incivility,Management
+Binary classification,requirement_type,Requirements
+Binary classification,tone_bearing,Management
+Multi-class classification,closed_question,Management
+Multi-class classification,commit_intent,Maintenance
+Multi-class classification,issue_type,Maintenance
+Multi-class classification,question_quality,Management
+Multi-class classification,sentiment,Management
+Multi-label classification,comment_type_java,Development
+Multi-label classification,comment_type_pharo,Development
+Multi-label classification,comment_type_python,Development
+Multi-label classification,review_aspect,Quality assurance
+Multi-label classification,smell_doc,Quality assurance
+Regression,story_points,Management
+NER,se_entities,Development
+MLM,requirement_completion,Requirements
