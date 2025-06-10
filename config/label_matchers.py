@@ -1,7 +1,10 @@
 """Label matchers.
 
-Here is detailed how the class labels need to be matched from numbers to texts for all the
-evaluation datasets.
+Inventory of class labels for each task. For binary and multi-class tasks, the
+object represents the matching between ID and class in natural text. For
+multi-label, this represents the list of independent labels. For NER, the
+possible classes to be detected for the LLM. And for MLM, the POS tags used
+during the data collector stage to mask only VERBS.
 """
 
 matchers = {
