@@ -1,4 +1,4 @@
-# :wrench: Pre-processing
+## :wrench: Pre-processing
 
 In this folder, we include the data preparation process previous to splitting and tokenization. We read each dataset in parquet format, apply the corresponding pre-processing pipeline and store it again in the same format.
 

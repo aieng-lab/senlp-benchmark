@@ -1,14 +1,14 @@
-# :microscope: Evaluation
+## :microscope: Evaluation
 
 In this folder, we include all the scripts to fine-tune/prompt and evaluate the LLMs on the different binary, multi-class, multi-label classification, regression, Named Entity Recognition (NER), and Masked Language Modeling (MLM) tasks.
 
-## :carpentry_saw: Data splitting
+### :carpentry_saw: Data splitting
 
 The `split_data.sh` script is intended to split each dataset while controlling experimentation elements such as percentage of instances reserved for testing and number of folds for cross-validation. The resulting file is a CSV with the same number rows of the source dataset but with columns corresponding to the subset the instance is assigned to in each fold: training (1), validation (0), and testing (2).
 
 **NOTE:** Although the implementation supports cross-validation, we only report results at hold-out level due to compute budget.
 
-## :robot: Models
+### :robot: Models
 
 This is a list of the open-source and proprietary LLMs selected for evaluation. The scripts `finetune_llm.sh`, `finetune_llm_ner.sh`, `finetune_llm_mlm.sh`, and `prompt_llm.py` run the fine-tuning and prompting processes according to the parameters configured.
 
@@ -41,7 +41,7 @@ This is a list of the open-source and proprietary LLMs selected for evaluation. 
 
 Finally, the script `train_baseline.py` runs the training and model selection processes according to the parameters configured.
 
-## :bar_chart: Results
+### :bar_chart: Results
 
 In the subfolder `results`, we include the performace scores calculated for the models on each task, in this way:
 
