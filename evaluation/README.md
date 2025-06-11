@@ -47,3 +47,14 @@ This is a list of the open-source and proprietary LLMs selected for evaluation. 
 | Claude 3.5 Sonnet |     -    |   decoder-only   |                       |             |
 
 Finally, the script `train_baseline.py` runs the training and model selection processes according to the parameters configured.
+
+## Results
+
+The subfolder results includes performace scores calculated for each model on each task in this way:
+
+- finetuning: Scores for fine-tuning open-source LLMs.
+- text_generation: Scores for prompting proprietary LLMs.
+- sklearn: Scores for the TFIDF+XGBoost baselines.
+- fasttext: Scores for the FastText baselines.
+
+For baselines, the subfolder for each task also includes the hyper-parameters choosen during model selection on the testing subset.
