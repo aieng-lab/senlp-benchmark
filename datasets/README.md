@@ -1,6 +1,6 @@
 ## :books: Datasets 
 
-This is the inventory of the 17 non-code SE tasks included in our benchmark and their respective datasets.
+This is the inventory of the 17 non-code SE tasks included in SELU and their respective datasets.
 
 The purpose of the notebook inside each folder is exploring the dataset and apply simple transformations such as removing useless columns and normalizing column names to make standard further preprocessing processes. We also make some data quality analysis to identify warnings such as data duplication or class imbalance. At the end of each script, we store the new version of the dataset in parquet or pickle format.
 
