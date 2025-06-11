@@ -1,6 +1,6 @@
 # :microscope: Evaluation
 
-In this folder, we include all the scripts required to fine-tune/prompt and evaluate the LLMs on the different binary, multi-class, multi-label classification, regression, Named Entity Recognition (NER), and Masked Language Modeling (MLM) tasks.
+In this folder, we include all the scripts to fine-tune/prompt and evaluate the LLMs on the different binary, multi-class, multi-label classification, regression, Named Entity Recognition (NER), and Masked Language Modeling (MLM) tasks.
 
 ## :carpentry_saw: Data splitting
 
