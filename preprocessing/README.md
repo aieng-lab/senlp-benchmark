@@ -1,10 +1,8 @@
-# Pre-processing of evaluation datasets
+# :wrench: Pre-processing
 
-This ETL orchestrates all the required steps to prepare the data previous to tokenization. The ETL reads the selected dataset in parquet format, applies the pre-processing pipeline and stores it again in the same format.
+In this folder, we include the main implementation to prepare the data previous to tokenization. We read each dataset in parquet format, apply the corresponding pre-processing pipeline and store them again in the same format. For verification purposes, we also implement a subprocess to generate diffs from random samples of texts.
 
-Additionally, a subprocess to generate diffs of random samples for manual verification is also included. These diff files are stored in HTML format for easy.
-
-Be aware of these paths where the datasets are read and stored:
+Be aware of these paths where the data is read and stored:
 
 ```python
 DATASETS_BASE_PATH = "../datasets"
@@ -12,4 +10,4 @@ DIFFS_BASE_PATH = "./diffs"
 NEW_DATASETS_BASE_PATH = "./datasets"
 ```
 
-Note that the NER and MLM tasks are not considered for this stage. However, the datasets need to be available in `DATASETS_BASE_PATH` to be used in subsequent stages (i.e., data splitting, fine-tuning).
+Note that the NER and MLM tasks are not considered for this stage. However, the datasets have to be available in `DATASETS_BASE_PATH` to be used in subsequent stages (i.e., data splitting, fine-tuning).

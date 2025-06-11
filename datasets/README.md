@@ -1,10 +1,10 @@
-# Task datasets (benchmark) for model evaluation
+# :books: Datasets 
 
-This is the inventory of non-code SE tasks and their respective datasets used for model evaluation.
+This is the inventory of the 17 non-code SE tasks included in our benchmark and their respective datasets.
 
-The purpose of the notebook inside each folder is exploring the dataset and apply simple transformations such as removing useless columns and normalizing column names to make standard further preprocessing processes. Some basic exploration and data quality analysis are carried out to identify warnings such as data duplication or label imbalance. At the end of each script, a new version of the dataset is stored in parquet or pickle format.
+The purpose of the notebook inside each folder is exploring the dataset and apply simple transformations such as removing useless columns and normalizing column names to make standard further preprocessing processes. We also make some data quality analysis to identify warnings such as data duplication or class imbalance. At the end of each script, we store the new version of the dataset in parquet or pickle format.
 
-Note that the *requirement_completion* task has been redefined to fill only POS verbs, thus the corresponding tokenization and POS tagging processes are also carried out.
+Note that we redefine the *requirement_completion* task to fill only POS verbs; therefore, we also include the corresponding tokenization and POS tagging processes.
 
 |   **Category**  |         **Task**         |                       **Description**                      | **Instances** | **Targets** |
 |:---------------:|:------------------------:|:----------------------------------------------------------:|:-------------:|:-----------:|
