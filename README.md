@@ -1,6 +1,6 @@
 ## SELU: A Software Engineering Language Understanding Benchmark
 
-Source code to replicate the results reported in *F. Peña, S. Herbold, "SELU: A Software Engineering Language Understanding Benchmark," 2026*.
+Source code to replicate the results reported in *F. C. Peña and S. Herbold, "SELU: A Software Engineering Language Understanding Benchmark," in IEEE Transactions on Software Engineering, 2026*.
 
 ### :memo: Abstract
 
@@ -20,13 +20,14 @@ All our experiments are run on a server with 8 NVIDIA A100 GPUs.
 ### :bookmark: Cite as
 
 ```
-@misc{peña2026selu,
-  title={SELU: A Software Engineering Language Understanding Benchmark}, 
-  author={Fabian C. Peña and Steffen Herbold},
+@article{11721552,
+  author={Peña, Fabian C. and Herbold, Steffen},
+  title={SELU: A Software Engineering Language Understanding Benchmark},
+  journal={IEEE Transactions on Software Engineering},  
   year={2026},
-  eprint={2506.10833v2},
-  archivePrefix={arXiv},
-  primaryClass={cs.SE},
-  url={https://arxiv.org/abs/2506.10833v2}, 
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TSE.2026.3741144}
 }
 ```
